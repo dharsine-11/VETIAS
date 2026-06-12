@@ -52,3 +52,7 @@ console.log(c++)//post-increment
 console.log(c--)//post-decrement
 console.log(++c)//pre-increment
 console.log(--c)//pre-decrement
+console.log("Ternary Operator")
+var age = 18;
+var result = age >= 18 ? "Eligible" : "Not Eligible";
+console.log(result);
