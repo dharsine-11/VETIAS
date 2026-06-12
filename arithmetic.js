@@ -41,8 +41,14 @@ console.log(a<b)//less than
 console.log(a>=b)//greater than or equal to
 console.log(a<=b)//less than or equal to 
 console.log("Logical Operator")
-let c = 10
-let d = 5
+var c = 10
+var d = 5
 console.log(c > 5 && d < 10)//logical AND
 console.log(c > 5 || d < 10)//logical OR
 console.log(!(c >5 && d < 10))//logical NOT
+console.log("Unary Operator")
+var c = 48
+console.log(c++)//post-increment
+console.log(c--)//post-decrement
+console.log(++c)//pre-increment
+console.log(--c)//pre-decrement
